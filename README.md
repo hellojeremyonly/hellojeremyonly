@@ -20,5 +20,3 @@ I am new to coding <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/gi
 </h1>
 
 </div>
-
----
