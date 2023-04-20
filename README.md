@@ -28,7 +28,7 @@ I am new to coding <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/gi
 <img src="https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=Coursera&logoColor=white">
 <img src="https://img.shields.io/badge/freecodecamp-27273D?style=for-the-badge&logo=freecodecamp&logoColor=white">
 
-:building_construction: In process...
+:building_construction: Building...in...progress...
 
 :cloud:Cloud
 
