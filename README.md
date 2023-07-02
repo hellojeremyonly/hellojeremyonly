@@ -9,11 +9,11 @@
 <div id="badges" align="center">
  <img src="https://komarev.com/ghpvc/?username=hellojeremyonly&style=flat-flat&color=lightgrey" alt=""/>
 
-<h1>
-
 Hi! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> 
 
 I'm Jeremy :technologist:
+
+<a href="https://app.daily.dev/hellojeremyonly"><img src="https://api.daily.dev/devcards/2e1a0dcc411c4a60b2ce9f9a9b65edfc.png?r=uv9" width="400" alt="Jeremy Chong's Dev Card"/></a>
 
 ---
 
@@ -87,7 +87,7 @@ I'm Jeremy :technologist:
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
 <img src"https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 
-</h1>
+---
 
 <div id="header" align="center">
 <img src="https://media.giphy.com/media/1sgetPM00wWqJpVUTl/giphy.gif">
