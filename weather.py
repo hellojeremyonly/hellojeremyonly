@@ -5,7 +5,6 @@ import schedule
 import time
 import os
 
-
 def fetch_and_plot():
     # Define the endpoint
     endpoint = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/weatherdata/forecast"
@@ -16,23 +15,26 @@ def fetch_and_plot():
         "aggregateHours": 24,
         "unitGroup": "us",
         "shortColumnNames": False,
-        "contentType": "csv",
+        "contentType": "json",
         "key": os.getenv("VISUAL_CROSSING_API_KEY")
     }
 
     # Send the request
     response = requests.get(endpoint, params=params)
 
-    # Convert the response to a pandas DataFrame
-    data = pd.read_csv(pd.compat.StringIO(response.text))
-    
+    # Convert the response to a JSON object
+    data_json = response.json()
+
+    # Convert the JSON object to a pandas DataFrame
+    data = pd.DataFrame(data_json)
+
     # Create the graph
     plt.figure(figsize=(10, 6))
     plt.plot(pd.to_datetime(data['datetime']), data['temp'])
     plt.title('Temperature over Time')
     plt.xlabel('Time')
     plt.ylabel('Temperature')
-    
+
     # Save the graph as an image
     plt.savefig('graph.png')
 
