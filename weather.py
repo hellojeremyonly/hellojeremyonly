@@ -32,7 +32,9 @@ def fetch_and_plot():
     plt.title('Temperature over Time')
     plt.xlabel('Time')
     plt.ylabel('Temperature (2m)')
-    plt.show()
+
+    # Save the graph as an image
+    plt.savefig('graph.png')
 
 # Schedule the function to run every hour (or any other desired interval)
 schedule.every(1).hours.do(fetch_and_plot)
