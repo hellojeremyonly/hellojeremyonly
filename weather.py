@@ -11,7 +11,7 @@ def fetch_and_plot():
 
     # Define the parameters
     params = {
-        "locations": "Herndon,VA,20170",
+        "locations": "Singapore",
         "aggregateHours": 24,
         "unitGroup": "us",
         "shortColumnNames": False,
