@@ -25,8 +25,8 @@ def fetch_and_plot():
     # Convert the response to a JSON object
     data_json = response.json()
 
-    # Convert the JSON object to a pandas DataFrame
-    data = pd.DataFrame(data_json)
+    # Convert the 'Daily' section of the JSON object to a pandas DataFrame
+    data = pd.DataFrame(data_json['Daily'])
 
     # Create the graph
     plt.figure(figsize=(10, 6))
