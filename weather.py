@@ -25,14 +25,14 @@ def fetch_and_plot():
 
     # Convert the response to a pandas DataFrame
     data = pd.read_csv(pd.compat.StringIO(response.text))
-
+    
     # Create the graph
     plt.figure(figsize=(10, 6))
-    plt.plot(data['time'], data['temperature_2m'])
+    plt.plot(pd.to_datetime(data['datetime']), data['temp'])
     plt.title('Temperature over Time')
     plt.xlabel('Time')
-    plt.ylabel('Temperature (2m)')
-
+    plt.ylabel('Temperature')
+    
     # Save the graph as an image
     plt.savefig('graph.png')
 
