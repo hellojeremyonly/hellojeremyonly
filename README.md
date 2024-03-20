@@ -17,7 +17,7 @@ Hi! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width=
 
 I'm Jeremy :technologist:
 
-<a href="https://app.daily.dev/hellojeremyonly"><img src="https://api.daily.dev/devcards/v2/OICTqK9HRXf46fNuM527Y.png?type=wide&r=ge5" width="652" alt="Jeremy Chong's Dev Card"/></a>
+<a href="https://app.daily.dev/hellojeremyonly"><img src="https://api.daily.dev/devcards/v2/OICTqK9HRXf46fNuM527Y.png?type=wide&r=ext" width="652" alt="Jeremy Chong's Dev Card"/></a>
 
 ---
 
